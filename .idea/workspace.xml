@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d1079a0-968d-4700-a9f2-deacb9fedbd4" name="Default Changelist" comment="" />
+    <list default="true" id="0d1079a0-968d-4700-a9f2-deacb9fedbd4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/06-Date日期对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/07-格式化日期年月日.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/08-格式化日期时分秒.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/09-获得Date总的毫秒数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/10-倒计时效果.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/05-猜数字游戏.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/05-猜数字游戏.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +24,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jBsQ45Gmc3X1whEYDfbvBAz8fA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -24,6 +37,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
@@ -47,7 +61,7 @@
       <workItem from="1603786428931" duration="11091000" />
       <workItem from="1604021231524" duration="14949000" />
       <workItem from="1604302300423" duration="31264000" />
-      <workItem from="1604905810781" duration="26812000" />
+      <workItem from="1604905810781" duration="34185000" />
     </task>
     <servers />
   </component>

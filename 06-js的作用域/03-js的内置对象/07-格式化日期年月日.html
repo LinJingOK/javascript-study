@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <script>
+    //格式化年月日
+    var date = new Date();
+    // console.log(date.getFullYear());//返回当前日期的年 2020
+    // console.log(date.getMonth() + 1); //返回的当前月份小一个月  记得月份+1
+    // console.log(date.getDate()); //返回的是几号
+    // console.log(date.getDay()); //周一返回的是1 周六返回的是6 周日返回的是0
+    //写一个2020年11月13日 星期五
+    var year = date.getFullYear();
+    var month = date.getMonth() + 1;
+    var dates = date.getDate();
+    var day = date.getDay();  //第一次运行报错原因是 date命名重复
+    arr = ['星期日', '星期一', '星期二', '星期三', '星期四', '星期五', '星期六'];
+    console.log("今天是" + year +"年" + month + "月" + dates + "日 "  + arr[day]); //今天是2020年11月13日 星期五
+    
+  </script>
+</head>
+<body>
+
+</body>
+</html>
