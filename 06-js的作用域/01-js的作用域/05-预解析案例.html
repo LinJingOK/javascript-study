@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <script>
+    //案例1
+    var num = 10;
+    fun();
+    function fun() {
+      console.log(num);
+      var num = 20;
+    }
+    
+    //相当于以下代码
+    // var num;
+    // function fun() {
+    //   var num;
+    //   console.log(num); //undefined
+    //   num = 20;
+    // }
+    // num = 10;
+    // fun();
+    
+    //案例2
+    var num = 10;
+    function fn() {
+      console.log(num);
+      var num = 20;
+      console.log(num);
+    }
+    fn();
+    
+    //相当于执行以下代码
+    var num;
+    function fn() {
+      var num;
+      console.log(num); //undefined
+      num = 20;
+      console.log(num); //20
+    }
+    num = 10;
+    fn();
+  </script>
+</head>
+<body>
+
+</body>
+</html>

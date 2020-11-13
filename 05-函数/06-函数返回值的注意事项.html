@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <script>
+    //函数返回值注意事项
+    //1.return 终止函数
+    function getSum(num1, num2) {
+      return num1 + num2; // return后面的代码不会被执行
+      alert('我是不会被执行');
+    }
+
+    console.log(getSum(1, 2));
+    //2.return 只能返回一个值
+    function fn(num1, num2) {
+      return num1,num2; //返回的结果是最后一个值
+    }
+
+    console.log(fn(1, 2));
+    
+    //3.我们求任意两个数的  加减成书结果
+    function getResult(num1, num2) {
+      return [num1 + num2, num1 - num2, num1 * num2, num1/num2];
+    }
+    var re = getResult(1, 2); //返回的是一个数组
+    console.log(re)
+  </script>
+</head>
+<body>
+
+</body>
+</html>

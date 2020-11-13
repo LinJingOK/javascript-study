@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <script>
+    //条件成立，执行if里面的代码 否则执行else里面的代码
+    // if(条件表达式) {
+    //   //如果条件成立执行的代码
+    // }else {
+    //   //否则执行的代码
+    // }
+    
+    year = prompt("请输入年份");
+    if ((year % 4 == 0 &&  year % 100 != 0) || (year % 400 == 0)) {
+      alert(year + "是闰年")
+    }else {
+      alert(year + "是平年");
+    }
+  </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <script>
+    //要求:将数组['red' ; 'green', 'blue' , 'pink'; 'purple']的内容反过来存放。输出:['purple' , ' pink' , 'blue' , 'green' ; 'red']
+    //1.声明一个新数组 newArr
+    //2.把旧数组索引号第4个（arr.length-1）取过来给新数组索引号第0个元素(newArr.length)
+    //3.我们采取递减的方式 i--
+    var arr = ['red' , 'green', 'blue' , 'pink', 'purple'];
+    var newArr = [];
+    for (var i = arr.length - 1; i >= 0; i--) {
+      newArr[newArr.length] = arr[i];
+    }
+    console.log(newArr);
+  </script>
+</head>
+<body>
+
+</body>
+</html>

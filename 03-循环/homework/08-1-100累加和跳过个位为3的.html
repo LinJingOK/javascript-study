@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <script>
+      // 8.求整数1~10o的累加值，但要求跳过所有个位为3的数【用continue实现】。
+      // 分析
+      // 1.先声明一个变量sum = 0；
+      // 2.遍历1-100
+      // 3.当i%10!=3时，sum += i
+      
+      //1.不用continue
+//       var sum = 0;
+//       for (var i = 1; i <= 20; i++) {
+//         if (i % 10 != 3) {
+//           sum += i;
+//         }
+//       }
+//       console.log(sum);
+    
+    //1.不用continue
+        var sum = 0;
+        for (var i = 1; i <= 100; i++) {
+          if (i % 10 == 3) {
+            continue;
+          }
+          sum += i;
+        }
+      console.log(sum);
+  </script>
+</head>
+<body>
+
+</body>
+</html>

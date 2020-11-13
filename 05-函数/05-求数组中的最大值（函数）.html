@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <script>
+    //求数组[5,2,99,101,69,77]中的最大值
+    function getArrMax(arr) {
+      var max = arr[0];
+      for (var i = 1; i < arr.length; i++) {
+        if (arr[i] > max) {
+          max = arr[i];
+        }
+      }
+      return max;
+    }
+    //实参是一个数组
+    //在我们实际开发中 我们经常用一个变量来接受  函数的返回结果 使用更简单
+    console.log(getArrMax([5,2,99,101,69,77]));
+  </script>
+</head>
+<body>
+
+</body>
+</html>

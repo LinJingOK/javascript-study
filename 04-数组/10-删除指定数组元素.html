@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <script>
+    //要求︰将数组[2,0,6,1,77,0,52,0,25,7]中的0去掉后，形成一个不包含0的新数组。
+    //1.声明两个数组arr和newArr
+    //2.遍历arr 将不等于0的数组元素找到
+    //3.依次添加到newArr中
+    var arr = [2,0,6,1,77,0,52,0,25,7];
+    var newArr = [];
+    for (var i = 0; i < arr.length; i++) {
+      if (arr[i] != 0) {
+        newArr[newArr.length] = arr[i];
+      }
+    }
+    console.log(newArr);
+  </script>
+</head>
+<body>
+
+</body>
+</html>

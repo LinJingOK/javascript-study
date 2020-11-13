@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <script>
+    // 此网页显示1.存钱 2.取钱 3.显示金额 4.退出
+    // 里面现存有100块钱。请输入您要的操作;
+    // 如果存钱，就用翰入钱数加上先存的钱数之后弹出显示 余额提示框
+    // 如果取钱，就减去取的钱数，之后弹出显示余额提示框如果显示余额，就输出余额
+    // 如果退出，弹出退出信息提示框
+     alert("1.存钱 2.取钱 3.显示金额 4.退出");
+     var money = 100;
+     var select = prompt("请输入你的操作号");
+     switch(select) {
+       case 1:
+         saveNum = prompt("请输入存钱的数目：");
+         alert(saveNum + money);
+         break;
+       case 2:
+         outNum = prompt("请输入取钱的数目：");
+         rest = outNum - money;
+         if (rest < 0) {
+           alert("余额不足");
+         }else{
+           alert("余额为：" + rest``);
+         }
+       case 3:
+         alert("余额为：" + rest);
+       case 4:
+         alert("您已经退出系统");
+     }
+     
+  </script>
+</head>
+<body>
+
+</body>
+</html>

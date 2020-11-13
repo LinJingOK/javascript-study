@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <script>
+    //1.Math对象随机数方法  random（）返回一个随机小鼠  0 =< x < 1 左闭右开
+    //2.这个方法里面不跟参数
+    //3.代码验证
+    console.log(Math.random());
+    //4.我们想要得到两个之间的随机整数 并且 包含这两个整数
+    //Math.floor(Math.random() * (max - min + 1) + min);
+    function getRandom(min, max) {
+      return Math.floor(Math.random() * (max - min + 1) + min);
+    }
+
+    console.log(getRandom(1, 10));
+    //5.随机点名
+    var  arr = ['张三', '李四', 'pink', 'hello', 'apple'];
+    console.log(arr[getRandom(0,arr.length - 1)]);
+  </script>
+</head>
+<body>
+
+</body>
+</html>

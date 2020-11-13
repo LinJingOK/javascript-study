@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <script>
+    // //案例3
+    // var a = 18;
+    // f1();
+    // function f1() {
+    //   var b = 9;
+    //   console.log(a);
+    //   console.log(b);
+    //   var a = '123';
+    // }
+    //相当于以下代码
+    // var a;
+    // function f1() {
+    //   var b;
+    //   var a;
+    //   b = 9;
+    //   console.log(a); //undefined
+    //   console.log(b); //9
+    //   a = '123';
+    // }
+    // a = 18;
+    // f1();
+    
+    //案例4
+    f1();
+    console.log(c);
+    console.log(b);
+    console.log(a);
+    function f1() {
+      var a = b = c = 9;
+      console.log(a);
+      console.log(b);
+      console.log(c);
+    }
+    //相当于以下代码
+    // function f1() {
+    //   var a;
+    //   a = b = c = 9;
+    //   //相当于var a=9;b=9;c=9; b和c直接赋值 没有var 声明 当全局变量看
+    //   //集体声明 var a=9,b=9,c=9;
+    //   console.log(a); //9
+    //   console.log(b); //9
+    //   console.log(c); //9
+    // }
+    // f1();
+    // console.log(c); //9
+    // console.log(b); //9
+    // console.log(a); //报错
+  </script>
+</head>
+<body>
+
+</body>
+</html>
