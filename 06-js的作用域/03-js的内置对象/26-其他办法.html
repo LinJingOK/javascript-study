@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <script>
+    //1.替换字符  replace（'被替换的字符’, '替换为的字符'）  它只会替换第一个字符
+    var str = 'andyandy';
+    console.log(str.replace('a', 'b'));
+    //有一个字符串 abcoefoxvozzopp 要求把里面所有的0替换为*
+    var str1 = 'abcoefoxvozzopp';
+    while(str1.indexOf('o') !== -1) {
+      str1 = str1.replace('o', '*');
+    }
+    console.log(str1);
+    
+    //2.字符转换为数组  split（‘分隔符’）  前面join把数组转换为字符串
+    var str2 = 'red, pink, blue';
+    console.log(str2.split(',')); //["red", " pink", " blue"]
+    var str3 = 'red&pink&blue';
+    console.log(str3.split('&')); //["red", " pink", " blue"]
+
+  </script>
+</head>
+<body>
+
+</body>
+</html>

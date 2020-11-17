@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <script>
+    //1.const 声明一个只读的常量 是不能修改的   如果声明的是数组和对象  是可以修改的
+    const z = 100;
+    z = 1000;  //error
+    console.log(z);
+    const a; //error 不能只声明不赋值 一旦定义 一定要初始化
+    
+    const o = {};
+    o.id = 123;
+    console.log(o);
+
+    const arr = [];
+    arr.push(1);
+    arr[1] = 2;
+    console.log(arr);
+    
+    //2.箭头函数 语法糖  简化了函数的定义
+    let f = v => v;
+    // function f(v) {
+    //   return v;
+    // }
+    
+    // let f= v => v ;
+    var f = function (n1, n2) {
+        return {n1:n1, n2:n2};
+    }
+    var f = (n1, n2) => ({n1:n1, n2:n2})
+    //this 由于箭头函数 不绑定this 它会捕获其所在上下文的this的值  作为自己的this值
+
+    
+    
+    //3.数据结构set map
+    //lset类似于数组成员信息是唯一的
+    // map类似于对象键值对键可以是任何类型let set = new set();
+    set.add(1).add(2).add(3).add( '2" ).add(4).add(3);console.1og(set);//{1，2，3，4}
+    var arr2 =[1,2,3,5,2,3,3,5,3,2,3];let set2 = newr Set(arr2);
+    console.log(set2);
+    
+    //去重var arr2 = [1,2,3,5,2,3,3,5,3,2,3];
+    let set2 = new Set(arr2); //返回对象类型 {1,2,3,5}
+    ////类型转换 Array.from()
+    console.log(Array.from(set2)); //对象转为数组  [1,2,3,5]
+    console.log(...set2)  //对象转为数组 [1,2,3,5]   ...扩展运算符
+
+
+    var m = new Map(m.set('id', 1).set('age',18).set('name', 'jindu'));
+    var o = {msg:180};
+    m.set(o,123);
+    var o2 = {
+      id:1,
+      age: 18,
+      name : 'jindu'
+    };
+    for(var key in o2){
+      console.log(key);
+      console.log(o2[key])
+    }
+    
+    for(let [k,v] of m){
+      console.log(k);
+      console.1og(v);
+    }
+
+
+    let m2 = new Map([[ 'a',1],['b',2],['c',3]]);
+    var o3 = f
+    a:1,b:2,c:3
+    }
+
+
+  </script>
+</head>
+<body>
+
+</body>
+</html>

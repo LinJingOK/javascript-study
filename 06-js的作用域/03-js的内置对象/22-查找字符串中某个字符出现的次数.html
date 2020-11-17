@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <script>
+    // 查找字符串"abcoefoxyozopp"中所有o出现的位置以及次数
+    // 1.核心算法∶先查找第一个o出现的位置
+    // 2.然后只要indexOf返回的结果不是-1就继续往后查找
+    // 3.因为indexOf只能查找到第一个，所以后面的查找，利用第二个参数，当前索引加1，从而继续查找
+    
+    // var str = "abcoefoxyozopp";
+    // var index = str.indexOf('o');
+    // var num = 0;
+    // while(index !== -1) {
+    //   console.log(index);
+    //   num++;
+    //   index = str.indexOf('o', index + 1);
+    // }
+    // console.log('o出现的次数是：' + num);
+    //课后作业['red' , 'blue', 'red' , 'green' , 'pink ' , ' red']，求red出现的位置和次数
+    var str1 = ['red' , 'blue', 'red' , 'green' , 'pink ' , 'red'];
+    var index = str1.indexOf('red');
+    var count = 0;
+    while(index !== -1) {
+      console.log(index);
+      count++;
+      index = str1.indexOf('red', index + 1);
+    }
+    console.log('red出现的次数：' + count);
+  </script>
+</head>
+<body>
+
+</body>
+</html>

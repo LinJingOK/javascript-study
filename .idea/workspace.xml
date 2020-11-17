@@ -2,14 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d1079a0-968d-4700-a9f2-deacb9fedbd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/06-Date日期对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/07-格式化日期年月日.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/08-格式化日期时分秒.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/09-获得Date总的毫秒数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/10-倒计时效果.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/11-创建数组的两种方式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/12-检测是否为数组的方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/19-基本包装类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/20-字符串的不可变性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/21-根据字符返回位置.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/22-查找字符串中某个字符出现的次数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/23-根据位置返回字符.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/24-统计出现最多的字符和次数.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/25-字符串操作方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/26-其他办法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/27-简单数据类型.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/29-复杂数据类型传参.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06-js的作用域/demo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/05-猜数字游戏.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/05-猜数字游戏.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/10-倒计时效果.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/10-倒计时效果.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +69,11 @@
       <workItem from="1603786428931" duration="11091000" />
       <workItem from="1604021231524" duration="14949000" />
       <workItem from="1604302300423" duration="31264000" />
-      <workItem from="1604905810781" duration="34185000" />
+      <workItem from="1604905810781" duration="41721000" />
+      <workItem from="1605496660476" duration="8000" />
+      <workItem from="1605497495293" duration="393000" />
+      <workItem from="1605512139110" duration="7932000" />
+      <workItem from="1605579665398" duration="4244000" />
     </task>
     <servers />
   </component>
@@ -69,6 +81,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="261" y="0" key="#Notifications" timestamp="1605513074517">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="0" key="#Notifications/0.0.1536.824/1920.-190.1440.860@0.0.1536.824" timestamp="1605513074517" />
     <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1604368726910">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
