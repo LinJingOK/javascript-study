@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d1079a0-968d-4700-a9f2-deacb9fedbd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/11-创建数组的两种方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/12-检测是否为数组的方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/19-基本包装类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/20-字符串的不可变性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/21-根据字符返回位置.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/22-查找字符串中某个字符出现的次数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/23-根据位置返回字符.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/24-统计出现最多的字符和次数.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/25-字符串操作方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/26-其他办法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/27-简单数据类型.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/29-复杂数据类型传参.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06-js的作用域/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-web APIs编程/01-根据ID获取元素对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-web APIs编程/02-getElementsByTagName获取某些元素.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-web APIs编程/03-H5新增获取元素方式.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-web APIs编程/04-获取特殊元素.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07-web APIs编程/05-事件三要素.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/10-倒计时效果.html" beforeDir="false" afterPath="$PROJECT_DIR$/06-js的作用域/03-js的内置对象/10-倒计时效果.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +63,7 @@
       <workItem from="1605496660476" duration="8000" />
       <workItem from="1605497495293" duration="393000" />
       <workItem from="1605512139110" duration="7932000" />
-      <workItem from="1605579665398" duration="4244000" />
+      <workItem from="1605579665398" duration="9722000" />
     </task>
     <servers />
   </component>

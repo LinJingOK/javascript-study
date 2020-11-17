@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="time">2019-9-9</div>
+  <script>
+    //1.因为我们文档页面从上往下加载，所以先的有标签 所以我们script写到标签下面
+    //2.get 获得element 元素by 通过 驼峰命名法
+    //3.参数id是大小写敏感的字符串
+    //4.返回的一个元素对象
+    var timer = document.getElementById('time');
+    console.log(timer);  //element对象    <div id="time">2019-9-9</div>
+    console.log(typeof timer); //object
+  </script>
+</body>
+</html>
