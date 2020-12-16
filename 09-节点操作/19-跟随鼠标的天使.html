@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <style>
+    img {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+    }
+  </style>
+</head>
+<body>
+<!--鼠标不断的移动，使用鼠标移动事件: mousemove在页面中移动，给document注册事件-->
+<!--图片要移动距离，而且不占位置，我们使用绝对定位即可-->
+<!--核心原理︰每次鼠标移动，我们都会获得最新的鼠标坐标，把这个x和y坐标做为图片的 top和left值就可以移动图片-->
+  <img src = "./img/angle.jpg" alt = "">
+  <script>
+    var pic = document.querySelector('img');
+    document.addEventListener('mousemove', function (e) {
+      //1.mousemove只要我们鼠标移动1px 就会触发这个事件
+      // console.log(1);
+      //2.核心原理
+      var x = e.pageX;
+      var y = e.pageY;
+      console.log('x坐标是' + x, 'y坐标是' + y);
+      
+      //3.千万不要忘记给left和top添加px单位
+      pic.style.left = x - 50 + 'px';
+      pic.style.top = y - 50 + 'px';
+    })
+  </script>
+</body>
+</html>

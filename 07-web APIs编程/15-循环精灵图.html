@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
+  <script>
+    //1.获取元素 所有的li
+    var lis = document.querySelectorAll('li');
+    for (var i = 0; i < lis.length; i++) {
+      //让索引号乘以44  就是每个li的背景y坐标  index就是我们的y坐标
+      var index = i * 44;
+      lis[i].style.backgroundPosition = '0 -' + index + 'px';
+    }
+  </script>
+</body>
+</html>

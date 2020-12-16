@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <style>
+    div {
+      width: 200px;
+      height: 200px;
+      background-color: pink;
+    }
+  </style>
+</head>
+<body>
+<div>1</div>
+<div>2</div>
+<div>3</div>
+<script>
+  //目的是点点击以下执行完就删除这个事件
+  var divs = document.querySelectorAll('div');
+  divs[0].onclick = function () {
+    alert(11);
+    //1.传统删除事件
+    divs[0].onclick= null;
+  };
+  
+  //2.removeEventlistener删除事件
+  div[1].addEventListener('click', fn);// 里面的fn不需要调用加小括号
+  
+  function fn() {
+    alert(22);s
+    divs[1].removeEventListener('click', fn);
+  }
+  
+  //3.ie专有
+  divs[2].attachEvent('onclick', fn1);
+  function fn1() {
+    alert(33);
+    divs[2].detachEvent('onclick',fn1);
+  }
+</script>
+</body>
+</html>

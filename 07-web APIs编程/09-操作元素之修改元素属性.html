@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <style>
+    img {
+      width: 300px;
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+  <button id="ldh">刘德华</button>
+  <button id="zxy">张学友</button>
+  
+  <img src = "images/ldh.jpg" alt = "" >
+  <script>
+    var ldh = document.getElementById('ldh');
+    var zxy = document.getElementById('zxy');
+    var img = document.querySelector('img');
+    ldh.onclick = function () {
+      img.src = 'images/ldh.jpg';
+      img.title = '刘德华'
+    }
+    zxy.onclick = function () {
+      img.src = 'images/zxy.jpg';
+      img.title = '张学友';
+    }
+  </script>
+</body>
+</html>

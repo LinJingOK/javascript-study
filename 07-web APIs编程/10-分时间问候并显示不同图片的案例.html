@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<!-- //根据系统不同时间来判断，所以需要用到日期内置对象-->
+<!-- //利用多分支语句来设置不同的图片-->
+<!-- //需要一个图片，并且根据时间修改图片，就需要用到操作元素src属性-->
+<!-- //需要一个div元素，显示不同问候语，修改元素内容即可-->
+
+  <img src = "" alt = "">
+  <div></div>
+  <script>
+    var img = document.querySelector('img');
+    var div = document.querySelector('div');
+    //1.得到当前的小时数
+    var date = new Date();
+    var h = date.getHours();
+    //3.判断小时数改变图片和文字信息
+    if (h < 12) {
+      img.src = 'images/morning.gif';
+      div.innerHTML = '早上好';
+    }else if (h < 18) {
+      img.src = 'images/noon.jpg';
+      div.innerHTML = '下午好';
+    }else {
+      img.src = 'images/evening.jpg';
+      div.innerHTML = '晚上好';
+    }
+  </script>
+</body>
+</html>

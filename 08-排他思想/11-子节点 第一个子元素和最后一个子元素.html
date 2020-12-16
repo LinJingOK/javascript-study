@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <ol>
+    <li>我是li</li>
+    <li>我是li</li>
+    <li>我是li</li>
+    <li>我是li</li>
+  </ol>
+  <script>
+    var ol = document.querySelector('ol');
+    //1.firstChild 第一个子节点  不管是文本节点还是元素节点
+    console.log(ol.firstChild); //#text
+    console.log(ol.lastChild); //#text
+    //2.firstElementChild 返回第一个子元素节点 ie9才支持
+    console.log(ol.firstElementChild);
+    console.log(ol.lastElementChild);
+    //3.实际开发的写法  既没有兼容性问题又返回第一个子元素
+    console.log(ol.children[0]); //伪数组的第一个元素
+    console.log(ol.children[ol.children.length - 1]); //伪数组的最后一个元素
+  </script>
+</body>
+</html>

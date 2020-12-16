@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  我是一段文字
+  <script>
+    //1.contextmenu 我们可以禁用右键菜单
+    document.addEventListener('contextmenu', function (e) {
+      e.preventDefault();
+    })
+    
+    //2.禁止选中文字 selectstart
+    document.addEventListener('selectstart', function (e) {
+      e.preventDefault();
+    })
+  </script>
+</body>
+</html>

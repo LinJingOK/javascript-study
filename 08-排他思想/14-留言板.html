@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <style>
+    li {
+      width: 100px;
+    }
+    li a {
+      float: right;
+    }
+  </style>
+</head>
+<body>
+  <!--核心思路︰点击按钮之后，就动态创建一个li，添加到ul里面。-->
+  <!--创建li的同时，把文本域里面的值通过li.innerHTML赋值给li-->
+  <!--如果想要新的留言后面显示就用appendChild如果想要前面显示就用insertBefore-->
+  <textarea name = "" id = "" cols = "30" rows = "10"></textarea>
+  <button>发布</button>
+  <ul></ul>
+ 
+  <script>
+    //1.获取元素
+    var btn = document.querySelector('button');
+    var text = document.querySelector('textarea');
+    var ul = document.querySelector('ul');
+    //2.注册事件
+    btn.onclick = function () {
+      if (text.value == '') {
+        alert('您没有输入内容');
+        return false;
+      }else {
+        //(1) 创建元素
+        var li = document.createElement('li');
+        //先有li 才能赋值
+        li.innerHTML = text.value + '<a href="javascript:;">删除</a>';
+        text.value = "";
+        //(2) 添加元素
+        ul.insertBefore(li, ul.children[0]);
+        //(3)删除元素 删除的是当前连接的li 它的父亲
+        // 当我们把文本域里面的值赋值给li的时候，多添加一个删除的链接
+        // 需要把所有的链接获取过来，当我们点击当前的链接的时候，
+        // 删除当前链接所在的li3阻止链接跳转需要添加javascriptvoid(0);或者 javascript;
+
+        var as = document.querySelectorAll('a');
+        for (var i = 0; i < as.length; i++) {
+          as[i].onclick = function () {
+            //node.removeChild(child)； 删除的是li  当前a的父亲
+            ul.removeChild(this.parentNode);
+          }
+        }
+      }
+    }
+  </script>
+</body>
+</html>

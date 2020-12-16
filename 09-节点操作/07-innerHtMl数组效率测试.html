@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<script>
+  function fn() {
+    var d1 = +new Date();
+    var array = [];
+    for (var i = 0; i < 1000; i++) {
+      array.push('<div style="width: 100px; height: 2px; border: 1px solid blue;"></div>')
+    }
+    document.body.innerHTML = array.join('');
+    var d2 = +new Date();
+    console.log(d2 - d1);// 2秒
+  }
+  fn()
+</script>
+</body>
+</html>

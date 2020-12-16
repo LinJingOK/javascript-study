@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div></div>
+  <p>
+    我是文字
+    <span>123</span>
+  </p>
+  <script>
+    // innerText 与 innerHTML的区别
+    //1.innerText不识别html标签 非标准 去除空格和换行
+    var div = document.querySelector('div');
+    div.innerText = '<strong>今天是：</strong> 2020-11-18'; //<strong>今天是：</strong> 2020-11-18
+    //2.innerHTML识别html标签 w3c标准  保留空格和换行
+    // div.innerHTML = '<strong>今天是：</strong> 2020-11-18'; //今天是： 2020-11-18
+    //这两个属性是可读写的  可以获得元素里面的内容
+    var p = document.querySelector('p');
+    console.log(p.innerText);  //我是文字 123
+    console.log(p.innerHTML); //我是文字  <span>123</span>
+  </script>
+</body>
+</html>

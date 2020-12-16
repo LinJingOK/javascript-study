@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <style>
+    table {
+      width: 500px;
+      margin: 100px auto;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    
+    td,th {
+      border: 1px solid #333;
+    }
+    
+    thead tr {
+      height: 40px;
+      background-color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <table cellspacing="0">
+    <thead>
+      <tr>
+        <th>姓名</th>
+        <th>科目</th>
+        <th>成绩</th>
+        <th>操作</th>
+      </tr>
+    </thead>
+    <tbody>
+    
+    </tbody>
+  </table>
+  <script>
+    var datas = [{
+      name: '张三',
+      subject: 'JavaScript',
+      score: 100
+    },{
+      name: '李四',
+      subject: 'JavaScript',
+      score: 98
+    },{
+      name: '明玉',
+      subject: 'JavaScript',
+      score: 99
+    },{
+      name: '宏利',
+      subject: 'JavaScript',
+      score: 88
+    }];
+    //2.往tbody里面创建行： 有几个人（通过数组的长度） 我们就创建几行
+    var tbody = document.querySelector('tbody');
+    for (var i = 0; i < datas.length; i++) {
+      //创建tr行
+      var tr = document.createElement('tr');
+      tbody.appendChild(tr);
+      //行里面创建单元格  td单元格的数量取决于每个对象里面属性个数  for循环遍历对象 datas[i]
+      for (var k in datas[i]) {
+        //创建单元格
+        var td = document.createElement('td');
+        //把对象里面的属性值给td
+        td.innerHTML = datas[i][k];
+        tr.appendChild(td)
+      }
+      //3.创建由删除2个字的单元格
+      var td = document.createElement('td');
+      td.innerHTML = '<a href = "javascript:;">删除</a>'
+      tr.appendChild(td);
+
+      var as = document.querySelectorAll('a');
+      for (var i = 0; i < as.length; i++) {
+        as[i].onclick = function () {
+          //点击a  删除当前a所在的行（a标签爸爸的爸爸）
+          tbody.removeChild(this.parentNode.parentNode)
+        }
+      }
+    }
+
+  </script>
+</body>
+</html>

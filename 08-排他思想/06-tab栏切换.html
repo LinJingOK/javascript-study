@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <style>
+    .tab_list li {
+      float: left;
+      height: 39px;
+      line-height: 39px;
+      padding: 0 40px;
+      text-align: center;
+      cursor: pointer;
+      list-style: none;
+    }
+    
+    .tab_list .current {
+      background-color: #c81623;
+      color: #ffffff;
+    }
+    
+    .item {
+      padding: 50px 0 0 50px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="tab">
+    <div class="tab_list">
+      <ul>
+        <li class="current">商品介绍</li>
+        <li>规格与包装</li>
+        <li>售后保障</li>
+        <li>商品评价</li>
+        <li>手机社区</li>
+      </ul>
+    </div>
+    <div class="tab_con">
+      <div class="item" style="display: block">
+        商品介绍模块内容
+      </div>
+      <div class="item">
+        规格与包装模块内容
+      </div>
+      <div class="item">
+        售后保障模块内容
+      </div>
+      <div class="item">
+        商品评价模块内容
+      </div>
+      <div class="item">
+        手机社区模块内容
+      </div>
+    </div>
+  </div>
+  <script>
+    //排他思想
+    var lis = document.querySelector('.tab_list').querySelectorAll('li');
+    var items = document.querySelectorAll('.item');
+    //for循环绑定点击事件
+    for (var i = 0; i < lis.length; i++) {
+        lis[i].setAttribute('index', i);
+        lis[i].onclick = function () {
+         
+         //1。实现模块选项卡  点击某一个 当前这一个的底色会是红色 其余不变 修改类名的方式
+         //干掉所有的  其余的li清楚class这个类
+          for (var i = 0; i < lis.length; i++) {
+            lis[i].className = '';
+          }
+          //留下自己
+          this.className = 'current';
+          
+          
+          //2.下面的显示内容模块
+         var index = this.getAttribute('index');
+         console.log(index);
+         // 让其与的item div隐藏
+         for (var i = 0; i < items.length; i++){
+           items[i].style.display = 'none';  //一开始错误  原因是将i写成index
+         }
+         //留下自己  让对应的item显示出来
+         items[index].style.display = 'block';
+       }
+    }
+  </script>
+</body>
+</html>
