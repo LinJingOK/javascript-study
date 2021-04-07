@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <style>
+    div {
+      width: 100px;
+      height: 100px;
+      background-color: pink;
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+  <script>
+    //1.获取元素
+    
+    var div = document.querySelector('div');
+    //2.手指触摸DOM元素事件
+    div.addEventListener('touchstart', function () {
+      console.log('触摸');
+    });
+    //3.手指在DOM元素上移动事件
+    div.addEventListener('touchmove', function () {
+      console.log('移动');
+    })
+    //4.离开
+    div.addEventListener('touchend', function () {
+      console.log('离开')
+    })
+  </script>
+</body>
+</html>

@@ -2,66 +2,178 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d1079a0-968d-4700-a9f2-deacb9fedbd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/06-执行事件步骤.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/07-操作元素之改变元素内容.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/08-inneText和innerHTML的区别.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/09-操作元素之修改元素属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/10-分时间问候并显示不同图片的案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/11-操作元素之表单属性设置.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/12-显示隐藏密码.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/13-操作元素之修改样式属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/14-关闭淘宝二维码案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/15-循环精灵图.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/16-显示隐藏文本框内容.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/18-仿新浪注册页面.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/images/close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/images/error.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/images/evening.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/images/ldh.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/images/message.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/images/morning.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/images/noon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/images/open.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/images/right.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/images/taobao.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07-web APIs编程/images/zxy.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-排他思想/01-排他思想（算法）.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-排他思想/02-换肤效果.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-排他思想/03-表格隔行变色.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-排他思想/04-全选和反选.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-排他思想/05-自定义属性操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-排他思想/06-tab栏切换.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-排他思想/08-父节点操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-排他思想/10-子节点操作.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-排他思想/11-子节点 第一个子元素和最后一个子元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-排他思想/12-兄弟节点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-排他思想/12-新浪下拉菜单.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-排他思想/13-创建和添加节点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-排他思想/14-留言板.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-排他思想/images/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-排他思想/images/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-排他思想/images/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08-排他思想/images/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-节点操作/01-删除节点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-节点操作/03-节点操作之克隆节点.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-节点操作/04-动态生成表格案例.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-节点操作/05-三种创建元素方式区别.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-节点操作/07-innerHtMl数组效率测试.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-节点操作/09-注册事件的两种方式.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-节点操作/10-删除事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-节点操作/11-DOM事件流的三个阶段.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-节点操作/12-事件对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-节点操作/13-常见事件对象属性和方法.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-节点操作/14-事件对象阻止默认行为.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-节点操作/15-阻止事件冒泡.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-节点操作/16-事件委托.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-节点操作/17-常见鼠标事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-节点操作/18-鼠标事件对象.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-节点操作/19-跟随鼠标的天使.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-节点操作/20-常用的键盘事件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09-节点操作/img/angle.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-键盘事件对象/02-键盘事件对象之keyCode属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-键盘事件对象/03-模拟京东按键输入内容.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-键盘事件对象/04-模拟京东快递单号查询.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-键盘事件对象/05-dom常见事件onload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-键盘事件对象/06-window常见事件onload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-键盘事件对象/12-倒计时效果.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-键盘事件对象/13-清除setInterval定时器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-键盘事件对象/14-发送短信案例.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-键盘事件对象/15-this指向问题.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-键盘事件对象/16-js的执行机制.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-键盘事件对象/17-5秒钟之后跳转页面.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-键盘事件对象/18-获取url参数/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-键盘事件对象/18-获取url参数/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-键盘事件对象/19-location常见的方法.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-键盘事件对象/21-history对象/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/10-键盘事件对象/21-history对象/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/01-offset系列属性.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/css/detail(1).css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/css/list.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/css/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/img/arrow-next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/img/arrow-prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/img/clock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/img/error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/img/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/img/jian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/img/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/js/animate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/aside_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/b3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/bargain.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/bg_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/detail_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/detail_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/detail_img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/erweima.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/floor-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/floor-1-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/floor-1-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/floor-1-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/floor-1-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/floor-1-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/floor-1-b01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/focus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/focus1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/focus2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/focus3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/pre.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/s3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/05-轮播图制作/upload/sk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/06-仿淘宝返回顶部（缓慢）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/07-touch触摸事件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/07-筋斗云导航栏/animate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/07-筋斗云导航栏/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/07-筋斗云导航栏/images/cloud.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/07-筋斗云导航栏/images/rss.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/11-PC端网页特效/09-移动端拖动元素.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/images/back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/images/hot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/images/hotel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/images/localnav_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/images/sprite.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/images/subnav-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/upload/focus1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/upload/focus2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/upload/focus3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/upload/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/upload/pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/upload/pic3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/upload/pic4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/upload/pic5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/01-移动端轮播图/upload/pic6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/02-classList使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/css/swiper-bundle.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/images/jd-sprites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/images/jd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/images/s-btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/js/swiper-bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/js/swiper-bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/upload/banner.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/upload/banner1.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/upload/banner2.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/upload/banner3.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/upload/nav-bg.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/upload/nav1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/upload/nav2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/upload/nav3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/upload/new1.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/upload/new2.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/upload/new3.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/upload/news.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/upload/pic1.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/upload/pic11.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/upload/pic2.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/upload/pic22.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/upload/pic3.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/04-swiper插件的使用/upload/pic33.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/05-视频插件的使用/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/05-视频插件的使用/mov.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/05-视频插件的使用/zy.media.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/05-视频插件的使用/zy.media.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap-3.3.7-dist/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/bootstrap/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/upload/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/upload/2(1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/upload/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/upload/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/upload/banner.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/upload/banner1.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/upload/banner2.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/upload/banner3.dpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/upload/lg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/06-bootstrap/upload/zgboke.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/08-本地存储之sessionStorage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12-移动端特效/10-记住用户名.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07-web APIs编程/02-getElementsByTagName获取某些元素.html" beforeDir="false" afterPath="$PROJECT_DIR$/07-web APIs编程/02-getElementsByTagName获取某些元素.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08-排他思想/06-tab栏切换.html" beforeDir="false" afterPath="$PROJECT_DIR$/08-排他思想/06-tab栏切换.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09-节点操作/20-常用的键盘事件.html" beforeDir="false" afterPath="$PROJECT_DIR$/09-节点操作/20-常用的键盘事件.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,19 +203,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/09-节点操作/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/12-移动端特效/06-bootstrap" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\visual studio project\code\JS基础学习\12-移动端特效\04-swiper插件的使用\css" />
+      <recent name="E:\workspace\visual studio project\code\JS基础学习\12-移动端特效\04-swiper插件的使用\js" />
+      <recent name="E:\workspace\visual studio project\code\JS基础学习\10-键盘事件对象\18-获取url参数" />
       <recent name="E:\workspace\visual studio project\code\JS基础学习\09-节点操作" />
       <recent name="E:\workspace\visual studio project\code\JS基础学习\06-js的作用域\01-js的作用域" />
-      <recent name="E:\workspace\visual studio project\code\JS基础学习\01-变量" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\visual studio project\code\JS基础学习\09-节点操作\img" />
-      <recent name="E:\workspace\visual studio project\code\JS基础学习\08-排他思想\images" />
-      <recent name="E:\workspace\visual studio project\code\JS基础学习\07-web APIs编程\images" />
+      <recent name="E:\workspace\visual studio project\code\JS基础学习\12-移动端特效\06-bootstrap" />
+      <recent name="E:\workspace\visual studio project\code\JS基础学习\12-移动端特效\06-bootstrap\bootstrap-3.3.7-dist\js" />
+      <recent name="E:\workspace\visual studio project\code\JS基础学习\12-移动端特效\05-视频插件的使用" />
+      <recent name="E:\workspace\visual studio project\code\JS基础学习\12-移动端特效\04-swiper插件的使用\css" />
+      <recent name="E:\workspace\visual studio project\code\JS基础学习\12-移动端特效\04-swiper插件的使用" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -132,6 +248,14 @@
       <workItem from="1606982108578" duration="8383000" />
       <workItem from="1608119061376" duration="783000" />
       <workItem from="1608125212888" duration="39000" />
+      <workItem from="1608126912357" duration="2039000" />
+      <workItem from="1609158983806" duration="7825000" />
+      <workItem from="1609847321103" duration="12906000" />
+      <workItem from="1610543991039" duration="9250000" />
+      <workItem from="1611298608670" duration="14994000" />
+      <workItem from="1611573522316" duration="22632000" />
+      <workItem from="1611832873222" duration="2259000" />
+      <workItem from="1614220927963" duration="90000" />
     </task>
     <servers />
   </component>
@@ -143,10 +267,20 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="261" y="0" key="#Notifications/0.0.1536.824/1920.-190.1440.860@0.0.1536.824" timestamp="1605513074517" />
-    <state x="2036" y="-190" width="1141" height="860" key="SettingsEditor" timestamp="1608125230196">
-      <screen x="1920" y="-190" width="1440" height="860" />
+    <state x="450" y="127" key="FileChooserDialogImpl" timestamp="1610621232531">
+      <screen x="0" y="0" width="1440" height="860" />
     </state>
+    <state x="450" y="127" key="FileChooserDialogImpl/-1920.199.1536.832/0.0.1440.860@0.0.1440.860" timestamp="1610621232531" />
+    <state x="124" y="0" width="1141" height="860" key="SettingsEditor" timestamp="1611303687408">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="116" y="0" key="SettingsEditor/-1920.199.1536.832/0.0.1440.860@0.0.1440.860" timestamp="1609159471553" />
+    <state x="124" y="0" key="SettingsEditor/-1920.220.1536.824/0.0.1536.824@0.0.1536.824" timestamp="1611303687408" />
     <state x="2036" y="-190" width="1141" height="860" key="SettingsEditor/0.0.1536.824/1920.-190.1440.860@0.0.1536.824" timestamp="1608125230196" />
+    <state x="452" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609848229877">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="452" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.199.1536.832/0.0.1440.860@0.0.1440.860" timestamp="1609848229877" />
     <state x="347" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1606983144090">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

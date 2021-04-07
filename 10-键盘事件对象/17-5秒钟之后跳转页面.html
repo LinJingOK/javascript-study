@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<button>点击</button>
+<div></div>
+<script>
+  var btn = document.querySelector('button');
+  var div = document.querySelector('div');
+  btn.addEventListener('click', function () {
+    // console.log(location.href);
+    location.href = 'https://cn.bing.com/';
+  });
+  
+  var time = 5;
+  function skip() {
+    if (time == 0) {
+      location.href = 'https://cn.bing.com/';
+    }else {
+      div.innerHTML = '等待'+ time +'秒';
+      time--;
+    }
+  }
+  skip(); //写称function为了解决刷新后停顿的一秒
+  setInterval(function () {
+    skip();
+  }, 1000)
+</script>
+</body>
+</html>

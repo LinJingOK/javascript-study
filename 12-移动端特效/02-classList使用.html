@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+  <style>
+
+    .bg {
+      background-color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="one two"></div>
+  <button>开关灯</button>
+  <script>
+    //classLsit 返回元素类名
+    var div = document.querySelector('div');
+    console.log(div.classList[1]);
+    //1.添加类名 实在后面追加类名不会覆盖以前的类名  注意前面不需要加.
+    div.classList.add('three');
+    //2.删除类名
+    div.classList.remove('one');
+    //3.切换类
+    var btn = document.querySelector('button');
+    btn.addEventListener('click', function () {
+      document.body.classList.toggle('bg')   //错误是忘了加点
+    })
+  </script>
+</body>
+</html>

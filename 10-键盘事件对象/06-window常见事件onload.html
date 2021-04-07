@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <meta charset = "UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+  window.onload = function () {
+    var btn = document.querySelector('button');
+    btn.addEventListener('click', function () {
+      alert('点击')
+    })
+  };
+  
+  window.onload = function () {
+    alert(22); //onload只执行最后一个
+  };
+  
+  window.addEventListener('load', function () {
+    alert(33);
+  });
+  
+  document.addEventListener('DOMContentLoaded', function () {
+    alert(44);
+  })
+  //load是等页面内容全部加载完毕，包含页面dom元素 图片 flash css 等等
+  //DOMContent 是DOM加载完毕，不包含图片flash css 等就可以执行，加载速度比load快
+</script>
+<button>点击</button>
+</body>
+</html>
